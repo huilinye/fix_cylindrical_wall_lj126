@@ -47,7 +47,9 @@ void FixCWallLJ126::precompute(int m)
 /* ----------------------------------------------------------------------
    fixwall for x and z direction as circle shape.
    coord: circle radius
-   which is initialied as x direction.
+   which is initialied as z direction.
+   One using this program should change the center in x and z direction by hand. such as the line
+   67 and line 68. radius cand be changed in input file.
 ------------------------------------------------------------------------- */
 
 
